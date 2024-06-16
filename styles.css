@@ -1,0 +1,43 @@
+/** Ours **/
+
+/* p {
+	margin: 0px !important;
+} */
+@font-face {
+	font-family: "Roboto";
+	src: url("./Roboto-Thin.ttf");
+}
+body {
+	font-family: Roboto;
+}
+/* td p {
+	text-align: justify;
+} */
+.container {
+	padding-top: 5%;
+}
+h1#name {
+	margin-bottom: 5%;
+}
+h1 {
+	font-weight: bold;
+	margin-bottom: 2.5%;
+}
+.content-block {
+	font-size: 18px;
+	text-align: justify;
+}
+.content-block p.next {
+	padding-top: 10px;
+}
+li:not(:last-child) { 
+	margin-bottom: 5px;  
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+	color: forestgreen;
+}
